@@ -24,16 +24,20 @@
 レビュー依頼イベントの管理を行う。
 
 #### プロパティ
-アプリを開いた回数 
+
+##### アプリを開いた回数 
+
 var launchedTimes: Int = 0
+
 10になったらlaunchedApp10Timesを呼ぶ。
 
-最後にレビュー促進アラートを表示した日時
+##### 最後にレビュー促進アラートを表示した日時
 var dateShowReviewRequest: Date?
-セットされたら、30日後にself.showReviewRequestを呼ぶ。
+~~セットされたら、30日後にself.showReviewRequestを呼ぶ。~~
+セットされたら、
 
-
-アラート表示デリゲート
+##### 
+##### アラート表示デリゲート
 weak var reviewRequestDelegate: ReviewRequestDelegate
 
 #### メソッド
